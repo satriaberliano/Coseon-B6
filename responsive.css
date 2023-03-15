@@ -2,6 +2,10 @@
   .content-text {
     font-size: 17px;
   }
+
+  .contact-form p {
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 750px) {
