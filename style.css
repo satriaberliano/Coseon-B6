@@ -1,0 +1,321 @@
+:root {
+  --background: #fff;
+  --on-background: #8e0e0f;
+  --text: #232323;
+  --text-white: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container { 
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+/*=========================================================*/
+/*==============            HEADER            =============*/
+/*=========================================================*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  color: var(--text);
+  background-color: #fff;
+  border-bottom: 1px solid var(--on-background);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+header a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+header .header-list ul {
+  display: flex;
+  align-items: center;
+}
+
+header .header-list ul li {
+  list-style: none;
+  margin: 0 !important;
+  margin-right: 20px !important;
+}
+
+.header-logo {
+  display: flex;
+  padding: 5px;
+}
+
+.header-logo img {
+  width: 60px;
+}
+
+.header-list ul li:hover{
+  font-weight: 600;
+  transition: all ease-in 0.2s;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/*=========================================================*/
+/*=============          JUMBOTRON            =============*/
+/*=========================================================*/
+
+.jumbotron {
+  background-image: url(/assets/tech.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+  color: var(--text-white);
+  opacity: 0.85;
+  margin-top: 90px;
+}
+
+.jumbotron h1 {
+  opacity: 0.8;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.jumbotron h2 { 
+  opacity: 0.8;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
+/*=========================================================*/
+/*==============           TENTANG            =============*/
+/*=========================================================*/
+#tentang {
+  padding-top: 20px;
+}
+
+.content-about {
+  margin: 60px 0 20px 0;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.content-text {
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/*=========================================================*/
+/*=============           STRUKTUR            =============*/
+/*=========================================================*/
+#struktur {
+  padding-top: 20px;
+}
+
+.content-structure {
+  margin: 60px 0 20px 0;
+}
+
+.structure-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.structure-item {
+  width: 100%;
+  box-shadow: 1px 7px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.structure-item .structure-image {
+  position: relative;
+}
+
+.structure-item .structure-image img {
+  width: 100%;
+}
+
+.structure-text {
+  margin: 10px 0;
+  padding: 20px 30px;
+}
+
+.structure-text .name {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.structure-item:hover {
+  box-shadow: 10px 12px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*=========================================================*/
+/*==============            KONTAK            =============*/
+/*=========================================================*/
+#kontak{
+  padding-top: 20px;
+}
+
+.content-contact {
+  margin: 60px 0 20px 0;
+}
+
+.contact-container {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  font-size: 18px;
+  gap: 40px;
+}
+
+.contact-form {
+  width: 60%;
+  text-align: justify;
+}
+
+.contact-info {
+  width: 40%;
+  margin: auto;
+  line-height: 60px;
+  text-align: center;
+}
+
+/*=========================================================*/
+/*==============            FORM             ==============*/
+/*=========================================================*/
+
+.form-input {
+  margin-top: 20px;
+}
+
+.input-action {
+  width: 100%;
+  background-color: var(--background);
+  border: 2px solid #a3abbb;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 10px 15px 20px;
+  margin: 8px 0;
+}
+
+.input-action::placeholder {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.button-action {
+  width: 100%;
+  padding: 18px 20px;
+  background-color: var(--on-background);
+  color: var(--text-white);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+
+/*=========================================================*/
+/*==============            INFO            =============*/
+/*=========================================================*/
+
+
+.contact-info p {
+  font-size: 20px;
+}
+
+.contact-info p i {
+  color: var(--on-background);
+  padding-right: 10px;
+}
+
+
+/*=========================================================*/
+/*==============            FOOTER            =============*/
+/*=========================================================*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px;
+  color: var(--text-white);
+  background-color: var(--on-background);
+}
+
+footer a {
+  color: var(--text-white);
+  text-decoration: none;
+}
+
+footer .footer-list ul {
+  align-items: center;
+}
+
+footer .footer-list ul li {
+  list-style: none;
+  margin: 20px 0 !important;
+  margin-right: 20px !important;
+}
+
+.footer-logo {
+  display: flex;
+  padding: 10px;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.footer-list ul li:hover{
+  font-weight: 600;
+}

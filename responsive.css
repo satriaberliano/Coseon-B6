@@ -1,0 +1,60 @@
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 700px) {
+  .structure-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .contact-container {
+    display: block;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-top: 100px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 26px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 26px;
+  }
+
+  .jumbotron h2 {
+    font-size: 20px;
+  }
+  
+  .heading h2 {
+    font-size: 30px;
+  }
+
+  .content-text {
+    font-size: 16px;
+  }
+
+  .structure-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .contact-form p {
+    font-size: 16px;
+  }
+}
