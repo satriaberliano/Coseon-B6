@@ -9,5 +9,3 @@ Anggota :
 3. Lestri Oktaviani
 4. Meida W.
 5. Afri W.
-
-![Logo Coseon](https://github.com/satriaberliano/Coseon-B6/assets/coseon-logo.png)
