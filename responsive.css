@@ -21,9 +21,13 @@
     margin-top: 100px;
     line-height: 40px;
   }
+
+  .menu-icon {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 490px) {
   .header-list {
     display: none;
   }
