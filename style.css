@@ -90,7 +90,7 @@ header .header-list ul li {
 }
 
 .menu-icon {
-  display: none;
+  display: none !important;
 }
 
 /*=========================================================*/
@@ -98,7 +98,7 @@ header .header-list ul li {
 /*=========================================================*/
 
 .jumbotron {
-  background-image: url(/assets/tech.jpg);
+  background-image: url(assets/tech.jpg);
   background-size: cover;
   width: 100%;
   padding: 150px 0;
@@ -276,6 +276,10 @@ header .header-list ul li {
 .contact-info p i {
   color: var(--on-background);
   padding-right: 10px;
+}
+
+.contact-info p:hover {
+  color: #af1515;
 }
 
 
