@@ -1,7 +1,9 @@
 # Coseon-B6
-Tugas Proyek HTML dan CSS DTS Progate
+<h3><strong>Tugas Proyek HTML dan CSS DTS Progate</strong><p></h3>
 
-Tema : Website Profile Usaha Jasa Kursus Online
+<p>Tema : Website Profile Usaha Jasa Kursus Online</p>
+
+<p>Tim : B6</p>
 
 Anggota :
 1. Satria Berliano Manzi
@@ -9,3 +11,8 @@ Anggota :
 3. Lestri Oktaviani
 4. Meida W.
 5. Afri W.
+
+Website : https://satriaberliano.github.io/Coseon-B6/
+
+Logo :<br>
+<img src="assets/coseon-logo.png" alt="Logo Coseon" width="100px"/><br>
