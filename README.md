@@ -16,3 +16,6 @@ Website : https://satriaberliano.github.io/Coseon-B6/
 
 Logo :<br>
 <img src="assets/coseon-logo.png" alt="Logo Coseon" width="100px"/><br>
+
+Tampilan Website :<br>
+<img src=assets/dokumentasi-website-coseon.png alt="Dokumentasi" width="500px"/><br>
